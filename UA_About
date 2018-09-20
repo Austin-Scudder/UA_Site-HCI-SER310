@@ -10,7 +10,8 @@
 
 .hero-image {
       background-image: url("My-Hero-Academia-Banner.png");
-
+/* This is a comment,
+it is my comment -Jon */
 
     /* Set a specific height */
     height: 40%;
@@ -107,9 +108,10 @@ All of U.A.’s staff are the top of the line best of the best heroes and profes
       <ol type = "1" class = "teachers">
        <li>All Might -Heroics</li>
        <li>Eraser Head - Homeroom-1A</li>
-       <li>Presenter Mic - </li>
-       <li> Cementos </li>
-       <li> Midnight </li>
+       <li>Vlad King - Homeroom-1B</li>
+       <li>Presenter Mic - English</li>
+       <li> Cementos - Modern Literature</li>
+       <li> Midnight - Modern Hero Art History</li>
      </ol>
 
 
