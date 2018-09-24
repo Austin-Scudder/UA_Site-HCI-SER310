@@ -1,0 +1,59 @@
+
+.hero-image {
+      background-image: url("My-Hero-Academia-Banner.png");
+    /* Set a specific height */
+    height: 40%;
+    width:100%;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: relative;
+  font-family: georgia;
+  background: blue;
+  background-size: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  color: yellow;
+}
+.item-a{
+  grid-area: text;
+  grid-column-start: 1
+}
+.item-b{
+  grid-area: image;
+}
+.Welcome{
+  display:grid;
+  grid-template-columns: 10px 10px;
+  grid-template-rows: 10px 10px;
+  gird-template-areas: "text image";
+}
+
+
+.footer {
+   position: bottom;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: blue;
+   color: yellow;
+   text-align: left;
+}
+ol.teacher{
+  float : left;
+
+}
+#staff{
+  border-style: solid;
+  border-color: Black;
+}
+body {
+  background-color:yellow;
+}
