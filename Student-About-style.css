@@ -14,6 +14,20 @@
     position: relative;
 }
 
+body {
+  background-color:yellow;
+}
+
+.footer {
+   position: bottom;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: blue;
+   color: yellow;
+   text-align: left;
+}
+
 .hero-text {
   text-align: center;
   position: relative;
@@ -51,17 +65,17 @@
 
 .Mido-text{
   position: absolute;
-  width: 150px;
+  width: 300px;
 }
 
 .Katsu-text{
   position: absolute;
-  width: 150px;
+  width: 300px;
 }
 
 .Ocha-text{
   position: absolute;
-  width: 150px;
+  width: 300px;
 }
 
 .Midoriya{
@@ -84,8 +98,7 @@
 }
 .Top-Students{
   display:grid;
-
-  grid-template-columns: 150px 150px 150px;
-  grid-template-rows: 200px 200px;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 150px 350px;
   gird-template-areas: "Mido Katsu Ocha";
 }
