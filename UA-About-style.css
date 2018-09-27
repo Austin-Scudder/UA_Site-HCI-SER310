@@ -22,11 +22,11 @@
   transform: translate(-50%, 90%);
   color: yellow;
 }
-.item-a{
+.intro{
   grid-area: text;
   grid-column-start: 1
 }
-.item-b{
+.symb{
   grid-area: image;
 }
 .Welcome{
