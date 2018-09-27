@@ -65,40 +65,49 @@ body {
 
 .Mido-text{
   position: absolute;
-  width: 300px;
+  width: 30%;
+  text-align: center;
 }
 
 .Katsu-text{
   position: absolute;
-  width: 300px;
+width: 30%;
+text-align: center;
 }
 
 .Ocha-text{
   position: absolute;
-  width: 300px;
+width: 30%;
+text-align: center;
+grid-area: Ocha-text;
 }
 
 .Midoriya{
+  overflow:hidden;
   border: solid;
   grid-area: Mido;
   grid-column-start: 1;
   grid-row-start: 1;
 }
 .Katsuki{
+  overflow:hidden;
   border: solid;
   grid-area: Katsu;
   grid-column-start: 2;
   grid-row-start: 1;
 }
 .Ochako{
+  overflow:hidden;
   border : solid;
   grid-area: Ocha;
   grid-column-start: 3;
   grid-row-start: 1;
 }
 .Top-Students{
+  overflow: hidden;
   display:grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-template-rows: 150px 350px;
-  gird-template-areas: "Mido Katsu Ocha";
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-rows: 500px;
+  gird-template-areas: "Mido Katsu Ocha"
+    "Mido-text Katsu-text Ocha-text";
 }
