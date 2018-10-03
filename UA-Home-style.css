@@ -9,7 +9,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-bottom: 80px;
 }
 
 .hero-text {
@@ -22,33 +21,6 @@
   left: 50%;
   transform: translate(-50%, 90%);
   color: yellow;
-}
-.intro{
-  grid-area: text;
-  grid-column-start: 1
-}
-.symb{
-  grid-area: image;
-}
-.Welcome{
-  display:grid;
-  grid-template-columns: 10px 10px;
-  grid-template-rows: 10px 10px;
-  gird-template-areas: "text image";
-}
-
-
-.footer {
-   position: bottom;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: blue;
-   color: yellow;
-   text-align: left;
-}
-ol.teacher{
-    float : left;
 }
 
 .navbar ul {
@@ -75,10 +47,46 @@ ol.teacher{
     background-color: #6d6713;
 }
 
-#staff{
-  border-style: solid;
-  border-color: Black;
-}
 body {
   background-color:yellow;
+}
+
+/* gird for the 3 sections \ */
+
+.grid{
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+
+.row {
+width: 100%;
+margin-bottom: 20px;
+display: flex;
+}
+
+.col-1{
+
+}
+
+.col-2{
+
+}
+
+.col-3{
+  width: 33%;
+}
+
+
+
+
+.footer {
+   position: bottom;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: blue;
+   color: yellow;
+   text-align: left;
 }
