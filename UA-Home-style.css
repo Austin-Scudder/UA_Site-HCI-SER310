@@ -51,7 +51,7 @@ body {
   background-color:yellow;
 }
 
-/* gird for the 3 sections \ */
+/* gird for the sections \ */
 
 .grid{
   margin: 0 auto;
@@ -69,7 +69,6 @@ display: flex;
 .col-1{
  width : 100%
 }
-
 
 .col-3{
   width: 33%;
