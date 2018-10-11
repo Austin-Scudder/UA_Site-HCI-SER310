@@ -7,7 +7,6 @@
 
 .grid{
   margin: 0 auto;
-  max-width: 1200px;
   width: 100%;
 }
 
@@ -38,7 +37,7 @@ display: flex;
 .hero-image {
       background-image: url("My-Hero-Academia-Banner.png");
     /* Set a specific height */
-    height: 40%;
+    height: 400px;
     width:100%;
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -76,10 +75,10 @@ body {
 .navbar ul {
     list-style-type: none;
     margin: 0;
-
-    padding: 0;
+    padding :0;
+    height: 45px;
     overflow: hidden;
-    background-color: #0f2ec6;
+    background-color: blue;
 }
 
 .navbar li {
@@ -96,6 +95,11 @@ body {
 
 .navbar li a:hover {
     background-color: #6d6713;
+}
+ul.navigation li a.on
+{
+    background:yellow;
+    padding:2px 6px;
 }
 
 

@@ -1,31 +1,43 @@
+/*
+*{
+outline: 1px solid red !important;
+box-sitting : border-box;
+}
+*/
+.grid{
+  margin: 0 auto;
+  width: 100%;
+}
+
 
 .row {
 width: 100%;
+margin-bottom: 20px;
 display: flex;
 }
 
-.col-1{
+.col-12{
  width : 100%
 }
-.col-6{
-  width: 50%;
-}
-
 
 .col-4{
-  width: 33%;
-
-}
-.col-8{
-  width: 66%;
+  width: 33.33%;
 }
 
-
+.footer {
+   position: bottom;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: blue;
+   color: yellow;
+   text-align: left;
+}
 
 .hero-image {
       background-image: url("My-Hero-Academia-Banner.png");
     /* Set a specific height */
-    height: 40%;
+    height: 400px;
     width:100%;
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -45,40 +57,14 @@ display: flex;
   transform: translate(-50%, 90%);
   color: yellow;
 }
-.intro{
-  grid-area: text;
-  grid-column-start: 1
-}
-.symb{
-  grid-area: image;
-}
-.Welcome{
-  display:grid;
-  grid-template-columns: 10px 10px;
-  grid-template-rows: 10px 10px;
-  gird-template-areas: "text image";
-}
-
-
-.footer {
-   position: bottom;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: blue;
-   color: yellow;
-   text-align: left;
-}
-ol.teacher{
-    float : left;
-}
 
 .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    height: 45px;
     overflow: hidden;
-    background-color: #0f2ec6;
+    background-color: blue;
 }
 
 .navbar li {
@@ -97,10 +83,8 @@ ol.teacher{
     background-color: #6d6713;
 }
 
-#staff{
-  border-style: solid;
-  border-color: Black;
-}
 body {
   background-color:yellow;
 }
+
+/* gird for the sections \ */
