@@ -1,8 +1,8 @@
 
 .hero-image {
-    background-image: url("My-Hero-Academia-Banner.png");
+      background-image: url("My-Hero-Academia-Banner.png");
     /* Set a specific height */
-    height: 400px;
+    height: 40%;
     width:100%;
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -26,10 +26,13 @@
 .navbar ul {
     list-style-type: none;
     margin: 0;
-    height: 45px;
     padding: 0;
     overflow: hidden;
-    background-color: blue;
+    background-color: #0f2ec6;
+}
+
+.navbar li {
+    float: left;
 }
 
 .navbar li a {
@@ -44,34 +47,32 @@
     background-color: #6d6713;
 }
 
-.navbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #0f2ec6;
+body {
+  background-color:yellow;
 }
-
-/* grid for the 3 sections \ */
 
 .grid{
   margin: 0 auto;
+  max-width: 1200px;
   width: 100%;
 }
 
+.row{
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+}
 
-.row {
-width: 100%;
-margin-bottom: 20px;
-display: flex;
+.teacher-title{
+
 }
 
 .col-12{
- width : 100%
+  width : 100%;
 }
 
-.col-4{
-  width: 33.33%;
+.col-2{
+  width : 16.66%;
 }
 
 .footer {
