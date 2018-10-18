@@ -5,10 +5,39 @@
   }
 */
 
+.grid{
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+.row {
+width: 100%;
+margin-bottom: 20px;
+display: flex;
+}
+
+.col-1{
+ width : 100%
+
+}
+
+.col-4{
+  width: 30%;
+  justify-content: center;
+  align-content: center;
+  justify: center;
+  text-align: center;
+  display: block;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .hero-image {
     background-image: url("My-Hero-Academia-Banner.png");
     /* Set a specific height */
-    height: 40%;
+    height: 400px;
     width:100%;
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -46,10 +75,10 @@ body {
 .navbar ul {
     list-style-type: none;
     margin: 0;
-
-    padding: 0;
+    padding :0;
+    height: 45px;
     overflow: hidden;
-    background-color: #0f2ec6;
+    background-color: blue;
 }
 
 .navbar li {
@@ -67,6 +96,16 @@ body {
 .navbar li a:hover {
     background-color: #6d6713;
 }
+<<<<<<< HEAD
+=======
+ul.navigation li a.on
+{
+    background:yellow;
+    padding:2px 6px;
+}
+
+
+>>>>>>> 24b5fba2cbc3100c8b3a690509334de34a172847
 
 .Midoriya-img {
  max-width: 30%;
