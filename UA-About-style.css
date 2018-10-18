@@ -1,29 +1,6 @@
 
-.row {
-width: 100%;
-display: flex;
-}
-
-.col-1{
- width : 100%
-}
-.col-2{
-  width: 50%;
-}
-
-
-.col-3{
-  width: 33%;
-
-}
-.col-2rds{
-  width: 66%;
-}
-
-
-
 .hero-image {
-      background-image: url("My-Hero-Academia-Banner.png");
+    background-image: url("My-Hero-Academia-Banner.png");
     /* Set a specific height */
     height: 40%;
     width:100%;
@@ -32,6 +9,7 @@ display: flex;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-bottom: 80px;
 }
 
 .hero-text {
