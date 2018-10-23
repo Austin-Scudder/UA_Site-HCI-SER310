@@ -1,6 +1,6 @@
 
 .hero-image {
-    background-image: url("My-Hero-Academia-Banner.png");
+    background-image: url("Pictures/My-Hero-Academia-Banner.png");
     /* Set a specific height */
     height: 400px;
     width:100%;
@@ -26,10 +26,14 @@
 .navbar ul {
     list-style-type: none;
     margin: 0;
-    height: 45px;
     padding: 0;
+    height: 45px;
     overflow: hidden;
     background-color: blue;
+}
+
+.navbar li {
+    float: left;
 }
 
 .navbar li a {
@@ -42,14 +46,6 @@
 
 .navbar li a:hover {
     background-color: #6d6713;
-}
-
-.navbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #0f2ec6;
 }
 
 /* grid for the 3 sections \ */
@@ -72,6 +68,12 @@ display: flex;
 
 .col-4{
   width: 33.33%;
+  margin-left: 10px;
+  margin-right: 10px; 
+}
+
+body {
+  background-color:yellow;
 }
 
 .footer {
