@@ -11,6 +11,10 @@
     position: relative;
 }
 
+.text-center{
+  text-align: center;
+}
+
 .hero-text {
   text-align: center;
   position: relative;

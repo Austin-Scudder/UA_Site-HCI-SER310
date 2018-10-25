@@ -9,6 +9,9 @@ box-sitting : border-box;
   width: 100%;
 }
 
+.text-center{
+  text-align: center;
+}
 
 .row {
 width: 100%;

@@ -11,8 +11,11 @@
     position: relative;
 }
 
-.hero-text {
+.text-center{
   text-align: center;
+}
+
+.hero-text {
   position: relative;
   font-family: georgia;
   background: blue;
@@ -68,8 +71,6 @@ display: flex;
 
 .col-md-4{
   width: 33.33%;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 body {
