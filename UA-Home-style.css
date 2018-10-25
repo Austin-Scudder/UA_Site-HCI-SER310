@@ -50,7 +50,7 @@
 
 /* grid for the 3 sections \ */
 
-.grid{
+.container{
   margin: 0 auto;
   width: 100%;
 }
@@ -62,14 +62,14 @@ margin-bottom: 20px;
 display: flex;
 }
 
-.col-12{
+.col-md-12{
  width : 100%
 }
 
-.col-4{
+.col-md-4{
   width: 33.33%;
   margin-left: 10px;
-  margin-right: 10px; 
+  margin-right: 10px;
 }
 
 body {

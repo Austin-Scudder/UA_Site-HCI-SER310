@@ -51,7 +51,7 @@ body {
   background-color:yellow;
 }
 
-.grid{
+.container{
   margin: 0 auto;
   max-width: 1200px;
   width: 100%;
@@ -67,11 +67,11 @@ body {
 
 }
 
-.col-12{
+.col-md-12{
   width : 100%;
 }
 
-.col-2{
+.col-md-2{
   width : 16.66%;
 }
 

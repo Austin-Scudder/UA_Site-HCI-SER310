@@ -4,7 +4,7 @@ outline: 1px solid red !important;
 box-sitting : border-box;
 }
 */
-.grid{
+.container{
   margin: 0 auto;
   width: 100%;
 }
@@ -16,11 +16,11 @@ margin-bottom: 20px;
 display: flex;
 }
 
-.col-12{
+.col-md-12{
  width : 100%
 }
 
-.col-4{
+.col-md-4{
   width: 33.33%;
 }
 
@@ -88,4 +88,4 @@ body {
   background-color:yellow;
 }
 
-/* gird for the sections \ */
+/* grid for the sections \ */
