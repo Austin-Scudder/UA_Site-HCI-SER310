@@ -1,83 +1,43 @@
 
 .hero-image {
-      background-image: url("Pictures/My-Hero-Academia-Banner.png");
-    /* Set a specific height */
-    height: 40%;
-    width:100%;
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+  background-image: url("Pictures/My-Hero-Academia-Banner.png");
+  /* Set a specific height */
+  height: 400px;
+  width:100%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .text-center{
-  text-align: center;
+text-align: center;
 }
 
 .hero-text {
-  text-align: center;
-  position: relative;
-  font-family: georgia;
-  background: blue;
-  background-size: auto;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 90%);
-  color: yellow;
+position: relative;
+font-family: georgia;
+background: blue;
+background-size: auto;
+top: 50%;
+left: 50%;
+transform: translate(-50%, 90%);
+color: yellow;
 }
 
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #0f2ec6;
-}
 
-.navbar li {
-    float: left;
-}
+/* grid for the 3 sections \ */
 
-.navbar li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
 
-.navbar li a:hover {
-    background-color: #6d6713;
-}
+
 
 body {
   background-color:yellow;
 }
 
-.container{
-  margin: 0 auto;
-  max-width: 1200px;
-  width: 100%;
-}
 
-.row{
-  width: 100%;
-  margin-bottom: 20px;
-  display: flex;
-}
 
-.teacher-title{
-
-}
-
-.col-md-12{
-  width : 100%;
-}
-
-.col-md-2{
-  width : 16.66%;
-}
 
 .footer {
    position: bottom;

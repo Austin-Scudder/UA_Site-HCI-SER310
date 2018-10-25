@@ -9,13 +9,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-}
-
-.text-center{
+  }
+  
+  .text-center{
   text-align: center;
-}
-
-.hero-text {
+  }
+  
+  .hero-text {
   position: relative;
   font-family: georgia;
   background: blue;
@@ -24,23 +24,34 @@
   left: 50%;
   transform: translate(-50%, 90%);
   color: yellow;
-}
+  }
+  
+  
+  /* grid for the 3 sections \ */
+  
+  .blue{
+    background-color : blue;
+  }
 
-
-/* grid for the 3 sections \ */
-
-
-
-body {
-  background-color:yellow;
-}
-
-.footer {
-   position: bottom;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: blue;
-   color: yellow;
-   text-align: left;
-}
+  .white{
+    color: white; 
+  }
+  
+  
+  body {
+    background-color:yellow;
+  }
+  
+  
+  
+  
+  .footer {
+     position: bottom;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: blue;
+     color: yellow;
+     text-align: left;
+  }
+  
