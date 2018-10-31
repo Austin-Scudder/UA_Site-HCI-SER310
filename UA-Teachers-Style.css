@@ -28,13 +28,42 @@ color: yellow;
 
 
 /* grid for the 3 sections \ */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+  width: 100%;
+}
 
 
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: rgb(95, 146, 255);
+}
+
+.nav-item-active{
+  background-color: rgb(95, 146, 255);
+}
 
 
 body {
   background-color:yellow;
 }
+
+.carousel-caption{
+  color: black; 
+}
+
 
 
 
