@@ -38,6 +38,10 @@ ul {
 }
 
 
+#myCarousel{
+background-color: blue;
+}
+
 li a {
   display: block;
   color: rgb(255, 255, 255,.5);
@@ -58,22 +62,31 @@ li a:hover {
 
 body {
   background-color:yellow;
+
+
+    margin-bottom: 60px; /* Margin bottom by footer height */
+
+
+
 }
 
 .carousel-caption{
+  background-color: rgb(255, 255, 255,.5);
   color: black; 
 }
 
-
-
-
-
 .footer {
-   position: bottom;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: blue;
-   color: yellow;
-   text-align: left;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  text-align: center;
 }
+
+button{
+
+}
+
+
