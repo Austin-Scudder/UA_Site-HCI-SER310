@@ -33,14 +33,14 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: blue;
+  background-color: #007bff;
   width: 100%;
 }
 
 
 li a {
   display: block;
-  color: white;
+  color: rgb(255, 255, 255,.5);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -48,11 +48,11 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: rgb(95, 146, 255);
+  color: rgba(255, 255, 255, .75);
 }
 
-.nav-item-active{
-  background-color: rgb(95, 146, 255);
+.nav-item-acvite{
+  color: rgb(255, 255, 255,1);
 }
 
 
